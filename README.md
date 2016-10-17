@@ -1,6 +1,6 @@
 # wavpack
 An efficient tool to pack simple WAV files, mainly those that contain beeps and FM synthesised sound (produced by pcsconv, my other tool). In these cases, it performs better than FLAC and can reduce the input to less than 1 % the original size.
-The packed WAV files are a proprietary format designated for this software, and may not be playable in other places. The output 
+The packed WAV files are a proprietary format designated for this software, and may not be playable in other places. The output is also usually compressed.
 Please note that non-PCM WAV files may not work without problems at the moment.
 
 ## Usage
