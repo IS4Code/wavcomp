@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 # SharpDevelop 4.2.2.8818
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wavpack", "wavpack.csproj", "{40342DE8-8A40-4624-91C8-E00E09EBBE6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wavcomp", "wavcomp.csproj", "{40342DE8-8A40-4624-91C8-E00E09EBBE6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

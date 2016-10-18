@@ -6,7 +6,7 @@ using System.IO.Compression;
 using System.Linq;
 using System.Security.Cryptography;
 
-namespace wavpack
+namespace wavcomp
 {
 	/// <summary>
 	/// Description of Wave.
