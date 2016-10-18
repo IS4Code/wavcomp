@@ -8,7 +8,7 @@ using System.Media;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace wavpack
+namespace wavcomp
 {
 	class Program
 	{
@@ -34,7 +34,7 @@ namespace wavpack
 		public static void Main(string[] args)
 		{
 			string ver = Assembly.GetExecutingAssembly().GetName().Version.ToString(2);
-			Console.WriteLine("wavpack v"+ver+" (2016) by IllidanS4");
+			Console.WriteLine("wavcomp v"+ver+" (2016) by IllidanS4");
 			if(args.Length == 0)
 			{
 				ShowHelp();
@@ -251,7 +251,7 @@ namespace wavpack
 		private static void ShowHelp()
 		{
 			Console.WriteLine("Arguments:");
-			Console.WriteLine("wavpack [options] input [output]");
+			Console.WriteLine("wavcomp [options] input [output]");
 			Console.WriteLine("Options:");
 			Console.WriteLine(" -c method ... Sets compression method (none,gzip,lzma,bzip2,flac,best).");
 			Console.WriteLine(" -e method ... Sets encryption method (none,aes).");

@@ -2,7 +2,7 @@
 using System;
 using System.IO;
 
-namespace wavpack
+namespace wavcomp
 {
 	internal class SkipStream : Stream
 	{

@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using FlacBox;
 
-namespace wavpack
+namespace wavcomp
 {
 	class FlacStream : Stream
 	{
